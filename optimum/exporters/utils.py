@@ -611,7 +611,7 @@ def _get_submodels_and_export_configs(
                 int_dtype=int_dtype,
                 float_dtype=float_dtype,
                 preprocessors=preprocessors,
-                legacy=legacy,
+                # legacy=legacy,
             )
 
             export_config.variant = _variant
