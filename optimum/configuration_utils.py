@@ -342,6 +342,6 @@ class BaseConfig(PretrainedConfig):
         output["transformers_version"] = transformers_version_str
         output["optimum_version"] = __version__
 
-        self.dict_torch_dtype_to_str(output)
+        self.dict_dtype_to_str(output)
 
         return output
